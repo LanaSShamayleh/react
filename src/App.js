@@ -5,8 +5,6 @@ import Footer from './component/footer';
 import Main from './component/main';
 
 
-
-
 class App extends React.Component {
   render() {
     return (
@@ -16,8 +14,6 @@ class App extends React.Component {
       <Footer/>
        </div>
     )
-
-
   }
 }
 export default App;
