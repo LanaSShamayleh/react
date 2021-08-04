@@ -16,6 +16,7 @@ class App extends React.Component{
     }
   }
   ShowModal=(title) =>{
+    // eslint-disable-next-line
     const selectedBeast=Beastdata.find(horned => 
       {
         if (horned.title===title)
